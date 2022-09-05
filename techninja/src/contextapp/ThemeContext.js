@@ -15,7 +15,7 @@ function ThemeContextProvider(props) {
         bg: '#555'
     })
   return (
-   <ThemeContext.Provider value={{isLightTheme,light,dark}}>
+   <ThemeContext.Provider value={{isLightTheme,light,dark, setLightTheme}}>
         { props.children }
    </ThemeContext.Provider>
   )
